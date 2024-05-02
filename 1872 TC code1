@@ -77,7 +77,7 @@ campaignTrail_temp.candidate_json = [
             "state": "Pennsylvania",
             "priority": 41,
             "description": "COMING SOON",
-            "color_hex": "#0000FF",
+            "color_hex": "#4747f0",
             "secondary_color_hex": "#90C0FF",
             "is_active": 1,
             "image_url": "https://i.imgur.com/FtlmPUh.png",
@@ -183,29 +183,6 @@ campaignTrail_temp.candidate_json = [
     },
     {
         "model": "campaign_trail.candidate",
-        "pk": 127,
-        "fields": {
-            "first_name": "Charles",
-            "last_name": "Adams",
-            "election": 8,
-            "party": "Republican",
-            "state": "Massachusetts",
-            "priority": 50,
-            "description": "'",
-            "color_hex": "#FF0000",
-            "secondary_color_hex": "#FFA0A0",
-            "is_active": 0,
-            "image_url": "https://i.imgur.com/ua8oOok.jpeg",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<p>Charles Adams is a U.S. Congressman from Massachusetts. His father and grandfather are both former presidents, and he helped found the Free Soil Party. As the de facto leader of the Half-Breeds, Adams supports civil service reform and a moderation on reconstruction, which earn him hatred from radicals. He is also your competitor at the convention.</p><p>Choosing Adams as your running mate will please the Half Breeds, while the nascent Adams machine will also lock in New England for you. However, Colfax will not be happy with this choice and you will have to make many concessions to assuage his anger.</p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
         "pk": 129,
         "fields": {
             "first_name": "Joel",
@@ -224,6 +201,29 @@ campaignTrail_temp.candidate_json = [
             "no_electoral_majority_message": "'",
             "description_as_running_mate": "COMING SOON\n",
             "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 127,
+        "fields": {
+            "first_name": "Charles",
+            "last_name": "Adams",
+            "election": 8,
+            "party": "Republican",
+            "state": "Massachusetts",
+            "priority": 1,
+            "description": "<p>Charles Adams is a U.S. Congressman from Massachusetts. His father and grandfather are both former presidents, and he helped found the Free Soil Party. As the de facto leader of the Half-Breeds, Adams supports civil service reform and a moderation on reconstruction, which earn him hatred from radicals. He is also your competitor at the convention.</p><p>Choosing Adams as your running mate will please the Half Breeds, while the nascent Adams machine will also lock in New England for you. However, Colfax will not be happy with this choice and you will have to make many concessions to assuage his anger.</p>",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/ua8oOok.jpeg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Charles Adams is a U.S. Congressman from Massachusetts. His father and grandfather are both former presidents, and he helped found the Free Soil Party. As the de facto leader of the Half-Breeds, Adams supports civil service reform and a moderation on reconstruction, which earn him hatred from radicals. He is also your competitor at the convention.</p><p>Choosing Adams as your running mate will please the Half Breeds, while the nascent Adams machine will also lock in New England for you. However, Colfax will not be happy with this choice and you will have to make many concessions to assuage his anger.</p>",
+            "candidate_score": 1,
             "running_mate": true
         }
     }
@@ -248,18 +248,18 @@ campaignTrail_temp.running_mate_json = [
     },
     {
         "model": "campaign_trail.running_mate",
-        "pk": 83,
-        "fields": {
-            "candidate": 67,
-            "running_mate": 127
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
         "pk": 156884,
         "fields": {
             "candidate": 67,
             "running_mate": 71
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 86793,
+        "fields": {
+            "candidate": 67,
+            "running_mate": 127
         }
     }
 ]
@@ -304,7 +304,7 @@ jet_data = {
     "windowColor": "#e53838",
     "containerColor": "#2329d7",
     "innerWindowColor": "#3262c3",
-    "bannerImageUrl": "https://i.imgur.com/hnAFchw.jpeg",
+    "bannerImageUrl": "https://i.imgur.com/hnAFchw.jpg",
     "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
     "endingTextColor": "#000000",
     "customQuote": "“There is a higher law than the Constitution.” ~ William H. Seward"
@@ -326,7 +326,7 @@ $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selected
 
 $(".container")[0].style.backgroundColor = "#2329d7";
 
-document.getElementById("header").src = "https://i.imgur.com/hnAFchw.jpeg";
+document.getElementById("header").src = "https://i.imgur.com/hnAFchw.jpg";
 
 document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
 
