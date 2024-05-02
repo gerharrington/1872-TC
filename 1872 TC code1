@@ -1,0 +1,335 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 8,
+        "fields": {
+            "year": 1860,
+            "summary": "<p>The election of 1872 is beginning, and with President Grant about to leave office, a new contest begins. Republicans have held massive majorities across the nation since the Civil War, and it appears that this year shall be no different.</p><p>The Democratic Party, which has been vastly demoralized, outnumbered, and weakened by their 1868 loss and Reconstruction, attempted to prevail in an election without Grant. They nominated Winfield Scott Hancock, a war hero during the Civil War.",
+            "image_url": "https://i.imgur.com/7z9lpPz.jpeg",
+            "winning_electoral_vote_number": 152,
+            "advisor_url": "https://i.imgur.com/DyouQky.jpeg",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">General Resources</h4>\rDavid Herbert Donald - <a href=\"http://www.amazon.com/exec/obidos/ASIN/068482535X/amhius20-20\">Lincoln</a><br>\rRobert W. Johannsen - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0252066359/amhius20-20\">Stephen A. Douglas</a><br>\rHarriet Jacobs - <a href=http://docsouth.unc.edu/fpn/jacobs/jacobs.html\">Incidents in the Life of a Slave Girl</a><br>\rSolomon Northup - <a href=\"http://docsouth.unc.edu/fpn/northup/northup.html\">Twelve Years a Slave</a><br>\r<a href=\"https://suite.io/michael-streich/3cr92nv\">Abraham Lincoln, Stephen Douglas, and the Election of 1860</a><br>\r<a href=\"http://www.greatamericanhistory.net/nomination.htm\">How Lincoln Won the 1860 Republican Nomination</a><br>\r<a href=\"http://flattopshistorywarpolitics.yuku.com/topic/619/John-Bell-for-president-1860#.U8BmbY1dVZ0\">John Bell for President, 1860</a><br>\r<a href=\"http://faculty.virginia.edu/jajenkins/ES.pdf\">Running to Lose? The Candidacy of John C. Breckinridge</a>",
+            "has_visits": 0,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1896-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1872TC"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 67,
+        "fields": {
+            "first_name": "Frederick W.",
+            "last_name": "Seward",
+            "election": 8,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 40,
+            "description": "<p>At the end of the so-called \"Convention of the Century\", Secretary of State Frederick W. Seward arose as the compromise candidate for the three factions in the party. Seward's father is a martyr, himself popular nationally as the current Secretary of State. Beyond that, Seward has a solid reputation among moderates and radicals alike, allowing him to build a united Republican Party.</p><p>After the popular Grant administration, Seward is widely expected to be the favorite to win. Still, he must avoid being seen as a puppet of radicals, fend off vicious Democratic attacks, and be wary of possible corruption scandals about his party, but if all goes well, his father will be proud of him…</p>",
+            "color_hex": "#ff4747",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/L6x1FcL.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1860 Presidential Election.</h3><p>Don't celebrate just yet, however. Word has already arrived that South Carolina is planning a secession convention, with other states soon to follow. Your Presidency will surely be defined by how you deal with this challenge. Will you take a hard line against this action, seek a compromise Amendment to protect slavery, or simply allow the states to secede? There are few good choices for you.</p>",
+            "electoral_loss_message": "<h3>Sorry. You have lost the 1860 Presidential Election.</h3><p>You began this campaign as the heavy favorite, but somehow things just didn't come together for you. Hopefully the nation will survive the next four years, at which point the Republicans can field a candidate who promises to win. The only positive you can take out of this is that the Southern threats of secession seem to have quieted down with your defeat.</p>",
+            "no_electoral_majority_message": "<h3>No candidate captured an Electoral College majority.</h3><p>This leaves everyone in a bad situation. Congress will now choose from the top three candidates in the electoral vote count. You are highly unlikely to be the compromise candidate in this situation, however. It is unclear whether Congress will select Douglas or Bell, or if they will deadlock and precipitate a Constitutional crisis. If Douglas is selected, how would the South react? There are even whispers about a civil war.</p>",
+            "description_as_running_mate": "n/a",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 68,
+        "fields": {
+            "first_name": "Winfield Scott",
+            "last_name": "Hancock",
+            "election": 8,
+            "party": "Democrat",
+            "state": "Pennsylvania",
+            "priority": 41,
+            "description": "COMING SOON",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/FtlmPUh.png",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1860 Presidential Election.</h3><p>How on earth did you pull this off? Hopefully you can soothe the frayed nerves from this turbulent campaign, and move the country past its slavery issues of the 1850s. Your supporters are already preparing a compromise amendment, offering permanent protection for slavery in the South in return for the admission of more free states. An invasion of Cuba may also be in order.</p>",
+            "electoral_loss_message": "<h3>Sorry. You have lost the 1860 Presidential Election.</h3><p>You began this campaign as the heavy underdog, and sure enough you were shut out of the North and South alike. Depending on what happens next, you may be called upon to keep the Democratic Party loyal to the Union. There are already rumblings of secession from several Southern states.</p>",
+            "no_electoral_majority_message": "<h3>No candidate captured an Electoral College majority.</h3><p>Congress will now choose from the top three candidates in the electoral vote count. If you are in the top three, you have a great chance. Otherwise, Bell will be the favorite. Your supporters are already preparing a compromise amendment, offering permanent protection for slavery in the South in return for the admission of more free states. You will likely have to make such promises to prevent a deadlock in the House vote.<p><p>Although he may be your best choice, Wilson's nomination will disappoint the Homers and Adamites. He has also been linked to some corruption scandals. Regardless, he will still help you in the general election.</p>",
+            "description_as_running_mate": "n/a",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 69,
+        "fields": {
+            "first_name": "James",
+            "last_name": "Black",
+            "election": 8,
+            "party": "Prohibition",
+            "state": "Pennsylvania",
+            "priority": 42,
+            "description": "n/a",
+            "color_hex": "#fb00ff",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/john-c-breckenridge-1860.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "n/a",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 70,
+        "fields": {
+            "first_name": "Other",
+            "last_name": "Candidates",
+            "election": 8,
+            "party": "Independent",
+            "state": "Indiana",
+            "priority": 43,
+            "description": "n/a",
+            "color_hex": "#f0e924",
+            "secondary_color_hex": "#A1FFA1",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/john-bell-1860.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "n/a",
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 71,
+        "fields": {
+            "first_name": "Henry",
+            "last_name": "Wilson",
+            "election": 8,
+            "party": "Republican",
+            "state": "Massachusetts",
+            "priority": 44,
+            "description": "n/a",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/usmKFfY.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Henry Wilson had served as a Massachusetts senator since 1855. Originally a Whig, he played a key role in the founding of the Free Soil Party. He is considered a member of the Radical Republicans and is the man recommended by Colfax for your choice. His years of experience in the Senate will help you in New England and will also cement your relationship with radicals.</p><p>Although he may be your best choice, Wilson's nomination will disappoint the Homers and Adamites. He has also been linked to some corruption scandals. Regardless, he will still help you in the general election.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 72,
+        "fields": {
+            "first_name": "John W.",
+            "last_name": "Stevenson",
+            "election": 8,
+            "party": "Democrat",
+            "state": "Kentucky",
+            "priority": 45,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/0lceRie.jpeg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "COMING SOON",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 127,
+        "fields": {
+            "first_name": "Charles",
+            "last_name": "Adams",
+            "election": 8,
+            "party": "Republican",
+            "state": "Massachusetts",
+            "priority": 50,
+            "description": "'",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/ua8oOok.jpeg",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "<p>Charles Adams is a U.S. Congressman from Massachusetts. His father and grandfather are both former presidents, and he helped found the Free Soil Party. As the de facto leader of the Half-Breeds, Adams supports civil service reform and a moderation on reconstruction, which earn him hatred from radicals. He is also your competitor at the convention.</p><p>Choosing Adams as your running mate will please the Half Breeds, while the nascent Adams machine will also lock in New England for you. However, Colfax will not be happy with this choice and you will have to make many concessions to assuage his anger.</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 129,
+        "fields": {
+            "first_name": "Joel",
+            "last_name": "Parker ",
+            "election": 8,
+            "party": "Democrat",
+            "state": "New Jersey",
+            "priority": 52,
+            "description": "'",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/iuaud0l.png",
+            "electoral_victory_message": "'",
+            "electoral_loss_message": "'",
+            "no_electoral_majority_message": "'",
+            "description_as_running_mate": "COMING SOON\n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 45,
+        "fields": {
+            "candidate": 68,
+            "running_mate": 72
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 85,
+        "fields": {
+            "candidate": 68,
+            "running_mate": 129
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 83,
+        "fields": {
+            "candidate": 67,
+            "running_mate": 127
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 156884,
+        "fields": {
+            "candidate": 67,
+            "running_mate": 71
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Business_End_9365"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 8,
+        "candidates": [
+            67,
+            68,
+            69,
+            70
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 8,
+        "candidates": [
+            67,
+            68,
+            69,
+            70
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 8,
+        "year": 1860,
+        "is_premium": 0,
+        "display_year": "1872TC"
+    }
+]
+
+jet_data = {
+    "headerColor": "#e0002d",
+    "windowColor": "#e53838",
+    "containerColor": "#2329d7",
+    "innerWindowColor": "#3262c3",
+    "bannerImageUrl": "https://i.imgur.com/hnAFchw.jpeg",
+    "backgroundImageUrl": "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg",
+    "endingTextColor": "#000000",
+    "customQuote": "“There is a higher law than the Constitution.” ~ William H. Seward"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE CAMPAIGN TRAIL</h2><font id="wittyquote" size="4" color="white"><em>“There is a higher law than the Constitution.” ~ William H. Seward</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#e0002d";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#e53838";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#2329d7";
+
+document.getElementById("header").src = "https://i.imgur.com/hnAFchw.jpeg";
+
+document.body.background = "https://coolbackgrounds.io/images/backgrounds/white/pure-white-background-85a2a7fd.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#3262c3!important;}</style>";
+
+//#endcode
