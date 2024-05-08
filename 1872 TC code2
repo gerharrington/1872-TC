@@ -1359,21 +1359,21 @@ campaignTrail_temp.issues_json = [
         "pk": 7,
         "fields": {
             "name": "Tariffs",
-            "description": 0,
+            "description": "Tariffs are taxes set by the government on imports and exports of goods. The idea is that by setting tariffs, it encourages internal trade.",
             "stance_1": "Strongly Supportive",
-            "stance_desc_1": 0,
+            "stance_desc_1": "May have a lot of industry it wishes to protect against foreign countries.",
             "stance_2": "Supportive",
-            "stance_desc_2": 0,
+            "stance_desc_2": "Supports tariffs, as industry is likely significant here.",
             "stance_3": "Slightly Supportive",
-            "stance_desc_3": 0,
+            "stance_desc_3": "Supports some tariffs to raise government revenue.",
             "stance_4": "Moderate",
-            "stance_desc_4": 0,
+            "stance_desc_4": "Supports a case-by-case basis for tariffs.",
             "stance_5": "Slightly Opposed",
-            "stance_desc_5": 0,
+            "stance_desc_5": "Believes tariffs should be low on many products, supports limited to raise funds.",
             "stance_6": "Opposed",
-            "stance_desc_6": 0,
+            "stance_desc_6": "Believes tariffs should be low on most products in general.",
             "stance_7": "Strongly Opposed",
-            "stance_desc_7": 0,
+            "stance_desc_7": "Does not believe in tariffs. Supports the repeal of any and all tariffs.",
             "election": 5
         }
     },
@@ -6536,7 +6536,9 @@ campaignTrail_temp.jet_data = [{
         "runImage": "https://i.imgur.com/usmKFfY.jpg"
     },
     "endings_enabled": false,
-    "ending_data": {}
+    "ending_data": {},
+    "mapping_enabled": false,
+    "mapping_data": {}
 }
 ]
 
