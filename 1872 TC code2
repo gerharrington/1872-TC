@@ -1,4 +1,4 @@
-3campaignTrail_temp.questions_json = [
+campaignTrail_temp.questions_json = [
     {
         "model": "campaign_trail.question",
         "pk": 165,
