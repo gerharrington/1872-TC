@@ -3936,8 +3936,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 1363,
             "candidate": 20,
-            "affected_candidate": 20,
-            "global_multiplier": -0.07
+            "affected_candidate": 21,
+            "global_multiplier": -0.01
         }
     },
     {
@@ -3946,8 +3946,8 @@ campaignTrail_temp.answer_score_global_json = [
         "fields": {
             "answer": 1364,
             "candidate": 20,
-            "affected_candidate": 20,
-            "global_multiplier": 0.005
+            "affected_candidate": 21,
+            "global_multiplier": -0.01
         }
     },
     {
@@ -4619,6 +4619,16 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 20,
             "global_multiplier": -0.01
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2589,
+        "fields": {
+            "answer": 2526,
+            "candidate": 20,
+            "affected_candidate": 21,
+            "global_multiplier": -0.010205
+        }
     }
 ]
 
@@ -4941,6 +4951,36 @@ campaignTrail_temp.answer_score_issue_json = [
             "issue": "6",
             "issue_score": -0.95,
             "issue_importance": 2
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 2587,
+        "fields": {
+            "answer": 1364,
+            "issue": 8,
+            "issue_score": 0.5,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 2588,
+        "fields": {
+            "answer": 1364,
+            "issue": "6",
+            "issue_score": 0.5,
+            "issue_importance": 4
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 2590,
+        "fields": {
+            "answer": 2526,
+            "issue": 8,
+            "issue_score": 0.5,
+            "issue_importance": 6
         }
     }
 ]
@@ -5875,3 +5915,4 @@ campaignTrail_temp.jet_data = [{
     "mapping_data": {}
 }
 ]
+
