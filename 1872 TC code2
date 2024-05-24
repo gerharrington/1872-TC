@@ -4127,7 +4127,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1556,
             "candidate": 20,
             "affected_candidate": 20,
-            "global_multiplier": -0.07
+            "global_multiplier": 0.003
         }
     },
     {
@@ -4137,7 +4137,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1558,
             "candidate": 20,
             "affected_candidate": 20,
-            "global_multiplier": -0.08
+            "global_multiplier": -0.005
         }
     },
     {
@@ -4167,7 +4167,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1611,
             "candidate": 20,
             "affected_candidate": 20,
-            "global_multiplier": -0.08
+            "global_multiplier": -0.03
         }
     },
     {
@@ -4177,7 +4177,7 @@ campaignTrail_temp.answer_score_global_json = [
             "answer": 1612,
             "candidate": 20,
             "affected_candidate": 20,
-            "global_multiplier": -0.08
+            "global_multiplier": -0.03
         }
     },
     {
@@ -4255,29 +4255,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 627,
         "fields": {
             "answer": 1555,
-            "candidate": 21,
-            "affected_candidate": 21,
-            "global_multiplier": -0.004
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 628,
-        "fields": {
-            "answer": 1558,
-            "candidate": 21,
-            "affected_candidate": 21,
-            "global_multiplier": -0.004
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 633,
-        "fields": {
-            "answer": 1567,
-            "candidate": 21,
-            "affected_candidate": 21,
-            "global_multiplier": -0.07
+            "candidate": 20,
+            "affected_candidate": 20,
+            "global_multiplier": 0.006
         }
     },
     {
@@ -4285,9 +4265,9 @@ campaignTrail_temp.answer_score_global_json = [
         "pk": 654,
         "fields": {
             "answer": 1613,
-            "candidate": 21,
-            "affected_candidate": 21,
-            "global_multiplier": -0.02
+            "candidate": 20,
+            "affected_candidate": 20,
+            "global_multiplier": -0.03
         }
     },
     {
@@ -4298,36 +4278,6 @@ campaignTrail_temp.answer_score_global_json = [
             "candidate": 21,
             "affected_candidate": 21,
             "global_multiplier": -0.001
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 682,
-        "fields": {
-            "answer": 1558,
-            "candidate": 20,
-            "affected_candidate": 22,
-            "global_multiplier": 0.25
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 686,
-        "fields": {
-            "answer": 1611,
-            "candidate": 20,
-            "affected_candidate": 22,
-            "global_multiplier": 0.1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_global",
-        "pk": 687,
-        "fields": {
-            "answer": 1612,
-            "candidate": 20,
-            "affected_candidate": 22,
-            "global_multiplier": 0.1
         }
     },
     {
@@ -4649,6 +4599,46 @@ campaignTrail_temp.answer_score_global_json = [
             "affected_candidate": 20,
             "global_multiplier": -0.01
         }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2620,
+        "fields": {
+            "answer": 1524,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2622,
+        "fields": {
+            "answer": 1525,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "global_multiplier": -0.01
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2623,
+        "fields": {
+            "answer": 1525,
+            "candidate": 21,
+            "affected_candidate": 21,
+            "global_multiplier": -0.005
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_global",
+        "pk": 2627,
+        "fields": {
+            "answer": 1557,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "global_multiplier": -0.0085
+        }
     }
 ]
 
@@ -4805,102 +4795,12 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 604,
-        "fields": {
-            "answer": 1536,
-            "issue": 9,
-            "issue_score": 0.5,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 617,
-        "fields": {
-            "answer": 1555,
-            "issue": 8,
-            "issue_score": -0.5,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 618,
-        "fields": {
-            "answer": 1555,
-            "issue": 9,
-            "issue_score": -0.5,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 619,
-        "fields": {
-            "answer": 1556,
-            "issue": 9,
-            "issue_score": 0.22,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 620,
-        "fields": {
-            "answer": 1558,
-            "issue": 8,
-            "issue_score": 0.8,
-            "issue_importance": 6
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 621,
-        "fields": {
-            "answer": 1558,
-            "issue": 9,
-            "issue_score": 0.8,
-            "issue_importance": 6
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
         "pk": 629,
         "fields": {
             "answer": 1567,
-            "issue": 8,
-            "issue_score": -0.7,
+            "issue": 9,
+            "issue_score": 0.5,
             "issue_importance": 2
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 655,
-        "fields": {
-            "answer": 1611,
-            "issue": 9,
-            "issue_score": 0.6,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 656,
-        "fields": {
-            "answer": 1612,
-            "issue": 9,
-            "issue_score": 0.55,
-            "issue_importance": 1
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 657,
-        "fields": {
-            "answer": 1613,
-            "issue": 9,
-            "issue_score": -0.1,
-            "issue_importance": 1
         }
     },
     {
@@ -4915,32 +4815,42 @@ campaignTrail_temp.answer_score_issue_json = [
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 2587,
-        "fields": {
-            "answer": 1364,
-            "issue": 8,
-            "issue_score": 0.5,
-            "issue_importance": 4
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_issue",
-        "pk": 2588,
+        "pk": 2605,
         "fields": {
             "answer": 1364,
             "issue": "6",
-            "issue_score": 0.5,
-            "issue_importance": 4
+            "issue_score": -0.1,
+            "issue_importance": 1
         }
     },
     {
         "model": "campaign_trail.answer_score_issue",
-        "pk": 2590,
+        "pk": 2606,
         "fields": {
             "answer": 2526,
-            "issue": 8,
-            "issue_score": 0.5,
-            "issue_importance": 6
+            "issue": "6",
+            "issue_score": -0.05,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 2619,
+        "fields": {
+            "answer": 1523,
+            "issue": 9,
+            "issue_score": -0.1,
+            "issue_importance": 1
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_issue",
+        "pk": 2621,
+        "fields": {
+            "answer": 1524,
+            "issue": 9,
+            "issue_score": -0.1,
+            "issue_importance": 2
         }
     }
 ]
@@ -4962,7 +4872,7 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 2480,
         "fields": {
             "answer": 1455,
-            "state": 61,
+            "state": 79,
             "candidate": 20,
             "affected_candidate": 20,
             "state_multiplier": 0.02
@@ -4973,10 +4883,10 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 2481,
         "fields": {
             "answer": 1456,
-            "state": 63,
+            "state": 53,
             "candidate": 20,
             "affected_candidate": 20,
-            "state_multiplier": 0.007
+            "state_multiplier": 0.008
         }
     },
     {
@@ -4984,10 +4894,10 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 2482,
         "fields": {
             "answer": 1456,
-            "state": 64,
+            "state": 80,
             "candidate": 20,
             "affected_candidate": 20,
-            "state_multiplier": 0.007
+            "state_multiplier": 0.008
         }
     },
     {
@@ -4995,21 +4905,10 @@ campaignTrail_temp.answer_score_state_json = [
         "pk": 2483,
         "fields": {
             "answer": 1456,
-            "state": 73,
+            "state": 58,
             "candidate": 20,
             "affected_candidate": 20,
-            "state_multiplier": 0.007
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 2484,
-        "fields": {
-            "answer": 1456,
-            "state": 75,
-            "candidate": 20,
-            "affected_candidate": 20,
-            "state_multiplier": 0.007
+            "state_multiplier": 0.008
         }
     },
     {
@@ -5031,7 +4930,7 @@ campaignTrail_temp.answer_score_state_json = [
             "state": 62,
             "candidate": 20,
             "affected_candidate": 20,
-            "state_multiplier": 0.005
+            "state_multiplier": 0.008
         }
     },
     {
@@ -5047,32 +4946,10 @@ campaignTrail_temp.answer_score_state_json = [
     },
     {
         "model": "campaign_trail.answer_score_state",
-        "pk": 2488,
-        "fields": {
-            "answer": 1457,
-            "state": 71,
-            "candidate": 20,
-            "affected_candidate": 20,
-            "state_multiplier": 0.005
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
         "pk": 2489,
         "fields": {
             "answer": 1457,
             "state": 82,
-            "candidate": 20,
-            "affected_candidate": 20,
-            "state_multiplier": 0.005
-        }
-    },
-    {
-        "model": "campaign_trail.answer_score_state",
-        "pk": 2490,
-        "fields": {
-            "answer": 1457,
-            "state": 65,
             "candidate": 20,
             "affected_candidate": 20,
             "state_multiplier": 0.005
@@ -5208,6 +5085,193 @@ campaignTrail_temp.answer_score_state_json = [
             "candidate": 21,
             "affected_candidate": 21,
             "state_multiplier": 0.03
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2607,
+        "fields": {
+            "answer": 1611,
+            "state": 56,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2608,
+        "fields": {
+            "answer": 1611,
+            "state": 85,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2609,
+        "fields": {
+            "answer": 1611,
+            "state": 69,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2610,
+        "fields": {
+            "answer": 1611,
+            "state": 77,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2611,
+        "fields": {
+            "answer": 1612,
+            "state": 56,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2612,
+        "fields": {
+            "answer": 1612,
+            "state": 85,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2613,
+        "fields": {
+            "answer": 1612,
+            "state": 69,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2614,
+        "fields": {
+            "answer": 1612,
+            "state": 77,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2615,
+        "fields": {
+            "answer": 1613,
+            "state": 56,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2616,
+        "fields": {
+            "answer": 1613,
+            "state": 85,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2617,
+        "fields": {
+            "answer": 1613,
+            "state": 69,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2618,
+        "fields": {
+            "answer": 1613,
+            "state": 77,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "state_multiplier": -0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2625,
+        "fields": {
+            "answer": 1525,
+            "state": 53,
+            "candidate": 21,
+            "affected_candidate": 21,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2626,
+        "fields": {
+            "answer": 1525,
+            "state": 80,
+            "candidate": 21,
+            "affected_candidate": 21,
+            "state_multiplier": 0.05
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2628,
+        "fields": {
+            "answer": 1457,
+            "state": 95,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2629,
+        "fields": {
+            "answer": 2553,
+            "state": 56,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "state_multiplier": 0.008
+        }
+    },
+    {
+        "model": "campaign_trail.answer_score_state",
+        "pk": 2630,
+        "fields": {
+            "answer": 2553,
+            "state": 77,
+            "candidate": 20,
+            "affected_candidate": 20,
+            "state_multiplier": 0.008
         }
     }
 ]
@@ -5958,6 +6022,98 @@ campaignTrail_temp.running_mate_image_url = "https://i.imgur.com/usmKFfY.jpg";
 campaignTrail_temp.candidate_last_name = "Seward";
 campaignTrail_temp.running_mate_last_name = "Wilson";
 
+campaignTrail_temp.multiple_endings = true;
+endingPicker = (out, totv, aa, quickstats) => {
+
+    function setImage(url) {
+        if(url == '' || url == null) return;
+        let interval = setInterval(function () {
+            img = document.getElementsByClassName("person_image")[0];
+            if (img != null) {
+                img.src = url;
+                clearInterval(interval);
+            }
+        }, 50);
+    }
+
+    if(quickstats[0] > 300) {
+        setImage("https://i.imgur.com/L6x1FcL.jpg");
+        return `You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note.
+
+“Dear Mr. Seward,
+
+Congratulations, the morning news has reported your victory and by a real washout margin. I must say, I am proud, I’m sure he would be as well. 
+
+I think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.
+
+I have suggestions for your actions in the coming months-” 
+
+You skip past the long list of orders before seeing what sat at the bottom of the note.
+
+“Sincerely,
+The Speaker”
+
+Would your father be proud? 
+
+That is a question for the history books I’m afraid.`;
+    }
+    if(quickstats[0] > 250) {
+        setImage("https://i.imgur.com/L6x1FcL.jpg");
+        return `You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note.
+
+“Dear Mr. Seward,
+
+Congratulations, the morning news has reported your victory and by a real respectable margin. I must say, I am proud, I’m sure he would be as well. 
+
+I think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.
+
+I have suggestions for your actions in the coming months-” 
+
+You skip past the long list of orders before seeing what sat at the bottom of the note.
+
+“Sincerely,
+The Speaker”
+
+Would your father be proud? 
+
+That is a question for the history books I’m afraid.`;
+    }
+    if(quickstats[0] > 166) {
+        setImage("https://i.imgur.com/L6x1FcL.jpg");
+        return `You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note.
+
+“Dear Mr. Seward,
+
+Congratulations, the morning news has reported your victory and by a real close margin. I must say, I am proud, I’m sure he would be as well. 
+
+I think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.
+
+I have suggestions for your actions in the coming months-” 
+
+You skip past the long list of orders before seeing what sat at the bottom of the note.
+
+“Sincerely,
+The Speaker”
+
+Would your father be proud? 
+
+That is a question for the history books I’m afraid.`;
+    }
+    if(quickstats[0] < 166) {
+        setImage("https://i.imgur.com/FtlmPUh.png");
+        return `“You have lost Mr. Seward,” Colfax said as he stood above your desk. His hands firmly planted on either side of it. He looked as if he was about to pounce. 
+
+“How, on god's green earth you managed that, is, beyond me.” Colfax laughed maniacally. He was visibly disheveled, he looked as if he had not slept in a decade. He was scared. You saw it. He knew that his career would soon be ended by that railroad business. As Colfax laughed, he then sat in an armchair across from your desk and looked at you.
+
+He stopped laughing, he looked only with contempt.
+
+“Your father would have never lost some Democratic swine. That blasted fucking General will ruin everything you know. EVERYTHING I HAVE WORKED TOWARDS! You are so incredibly incompetent that the whole damn party is slipping out from under you!” He stood like a rocket and mocked you.
+
+“There goes Mr. Adams and with him his congressional influence! BYE BYE! OH LOOK! Are my eyes deceiving me, or is that A DEMOCRATIC PLURALITY IN. MY. FUCKING. HOUSE!” You looked at Colfax almost with a tear in your eye. You opened it to say something, but no words were emitted. Just an even more deafening silence. 
+
+Colfax turned and left without another word. You put your head in your hands. Would your father be proud?`;
+    }
+}
 
 
 campaignTrail_temp.jet_data = [{
@@ -5968,8 +6124,45 @@ campaignTrail_temp.jet_data = [{
         "canImage": "https://i.imgur.com/L6x1FcL.jpg",
         "runImage": "https://i.imgur.com/usmKFfY.jpg"
     },
-    "endings_enabled": false,
-    "ending_data": {},
+    "endings_enabled": true,
+    "ending_data": {
+        "1716530385538": {
+            "id": 1716530385538,
+            "variable": 0,
+            "operator": ">",
+            "value": 0,
+            "endingImage": "https://i.imgur.com/L6x1FcL.jpg",
+            "endingText": "You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note.\n\n“Dear Mr. Seward,\n\nCongratulations, the morning news has reported your victory and by a real washout margin. I must say, I am proud, I’m sure he would be as well. \n\nI think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.\n\nI have suggestions for your actions in the coming months-” \n\nYou skip past the long list of orders before seeing what sat at the bottom of the note.\n\n“Sincerely,\nThe Speaker”\n\nWould your father be proud? \n\nThat is a question for the history books I’m afraid.",
+            "amount": "300"
+        },
+        "1716530559075": {
+            "id": 1716530559075,
+            "variable": 0,
+            "operator": ">",
+            "value": 0,
+            "endingImage": "https://i.imgur.com/L6x1FcL.jpg",
+            "endingText": "You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note.\n\n“Dear Mr. Seward,\n\nCongratulations, the morning news has reported your victory and by a real respectable margin. I must say, I am proud, I’m sure he would be as well. \n\nI think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.\n\nI have suggestions for your actions in the coming months-” \n\nYou skip past the long list of orders before seeing what sat at the bottom of the note.\n\n“Sincerely,\nThe Speaker”\n\nWould your father be proud? \n\nThat is a question for the history books I’m afraid.",
+            "amount": "250"
+        },
+        "1716530589637": {
+            "id": 1716530589637,
+            "variable": 0,
+            "operator": ">",
+            "value": 0,
+            "endingImage": "https://i.imgur.com/L6x1FcL.jpg",
+            "endingText": "You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note.\n\n“Dear Mr. Seward,\n\nCongratulations, the morning news has reported your victory and by a real close margin. I must say, I am proud, I’m sure he would be as well. \n\nI think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.\n\nI have suggestions for your actions in the coming months-” \n\nYou skip past the long list of orders before seeing what sat at the bottom of the note.\n\n“Sincerely,\nThe Speaker”\n\nWould your father be proud? \n\nThat is a question for the history books I’m afraid.",
+            "amount": "166"
+        },
+        "1716530648640": {
+            "id": 1716530648640,
+            "variable": 0,
+            "operator": "<",
+            "value": 0,
+            "endingImage": "https://i.imgur.com/FtlmPUh.png",
+            "endingText": "“You have lost Mr. Seward,” Colfax said as he stood above your desk. His hands firmly planted on either side of it. He looked as if he was about to pounce. \n\n“How, on god's green earth you managed that, is, beyond me.” Colfax laughed maniacally. He was visibly disheveled, he looked as if he had not slept in a decade. He was scared. You saw it. He knew that his career would soon be ended by that railroad business. As Colfax laughed, he then sat in an armchair across from your desk and looked at you.\n\nHe stopped laughing, he looked only with contempt.\n\n“Your father would have never lost some Democratic swine. That blasted fucking General will ruin everything you know. EVERYTHING I HAVE WORKED TOWARDS! You are so incredibly incompetent that the whole damn party is slipping out from under you!” He stood like a rocket and mocked you.\n\n“There goes Mr. Adams and with him his congressional influence! BYE BYE! OH LOOK! Are my eyes deceiving me, or is that A DEMOCRATIC PLURALITY IN. MY. FUCKING. HOUSE!” You looked at Colfax almost with a tear in your eye. You opened it to say something, but no words were emitted. Just an even more deafening silence. \n\nColfax turned and left without another word. You put your head in your hands. Would your father be proud?",
+            "amount": "166"
+        }
+    },
     "mapping_enabled": false,
     "mapping_data": {}
 }
