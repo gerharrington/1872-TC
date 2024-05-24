@@ -6038,80 +6038,19 @@ endingPicker = (out, totv, aa, quickstats) => {
 
     if(quickstats[0] > 300) {
         setImage("https://i.imgur.com/L6x1FcL.jpg");
-        return `You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note.
-
-“Dear Mr. Seward,
-
-Congratulations, the morning news has reported your victory and by a real washout margin. I must say, I am proud, I’m sure he would be as well. 
-
-I think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.
-
-I have suggestions for your actions in the coming months-” 
-
-You skip past the long list of orders before seeing what sat at the bottom of the note.
-
-“Sincerely,
-The Speaker”
-
-Would your father be proud? 
-
-That is a question for the history books I’m afraid.`;
+        return `<h3>Congratulations! You have won the 1872 Presidential Election.</h3>You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note. <p>“Dear Mr. Seward,</p><p>Congratulations, the morning news has reported your victory and by a real washout margin. I must say, I am proud, I’m sure he would be as well. </p><p>I think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.</p><p>I have suggestions for your actions in the coming months-” </p><p>You skip past the long list of orders before seeing what sat at the bottom of the note.</p><p>“Sincerely,The Speaker”</p><p>Would your father be proud? </p><p>That is a question for the history books I’m afraid.</p>`;
     }
     if(quickstats[0] > 250) {
         setImage("https://i.imgur.com/L6x1FcL.jpg");
-        return `You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note.
-
-“Dear Mr. Seward,
-
-Congratulations, the morning news has reported your victory and by a real respectable margin. I must say, I am proud, I’m sure he would be as well. 
-
-I think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.
-
-I have suggestions for your actions in the coming months-” 
-
-You skip past the long list of orders before seeing what sat at the bottom of the note.
-
-“Sincerely,
-The Speaker”
-
-Would your father be proud? 
-
-That is a question for the history books I’m afraid.`;
+        return `<h3>Congratulations! You have won the 1872 Presidential Election.</h3><p>You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note.</p><p>“Dear Mr. Seward,</p><p>Congratulations, the morning news has reported your victory and by a real respectable margin. I must say, I am proud, I’m sure he would be as well. </p><p>I think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.</p><p>I have suggestions for your actions in the coming months-” </p><p>You skip past the long list of orders before seeing what sat at the bottom of the note.</p><p>“Sincerely, The Speaker”</p><p>Would your father be proud? </p><p>That is a question for the history books I’m afraid.</p>`;
     }
     if(quickstats[0] > 166) {
         setImage("https://i.imgur.com/L6x1FcL.jpg");
-        return `You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note.
-
-“Dear Mr. Seward,
-
-Congratulations, the morning news has reported your victory and by a real close margin. I must say, I am proud, I’m sure he would be as well. 
-
-I think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.
-
-I have suggestions for your actions in the coming months-” 
-
-You skip past the long list of orders before seeing what sat at the bottom of the note.
-
-“Sincerely,
-The Speaker”
-
-Would your father be proud? 
-
-That is a question for the history books I’m afraid.`;
+        return `<h3>Congratulations! You have won the 1872 Presidential Election.</h3><p>You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note.</p><p>“Dear Mr. Seward,</p><p>Congratulations, the morning news has reported your victory and by a real close margin. I must say, I am proud, I’m sure he would be as well. </p><p>I think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.</p><p>I have suggestions for your actions in the coming months-” </p><p>You skip past the long list of orders before seeing what sat at the bottom of the note.</p><p>“Sincerely,The Speaker”</p><p>Would your father be proud? </p><p>That is a question for the history books I’m afraid. </p>`;
     }
     if(quickstats[0] < 166) {
         setImage("https://i.imgur.com/FtlmPUh.png");
-        return `“You have lost Mr. Seward,” Colfax said as he stood above your desk. His hands firmly planted on either side of it. He looked as if he was about to pounce. 
-
-“How, on god's green earth you managed that, is, beyond me.” Colfax laughed maniacally. He was visibly disheveled, he looked as if he had not slept in a decade. He was scared. You saw it. He knew that his career would soon be ended by that railroad business. As Colfax laughed, he then sat in an armchair across from your desk and looked at you.
-
-He stopped laughing, he looked only with contempt.
-
-“Your father would have never lost some Democratic swine. That blasted fucking General will ruin everything you know. EVERYTHING I HAVE WORKED TOWARDS! You are so incredibly incompetent that the whole damn party is slipping out from under you!” He stood like a rocket and mocked you.
-
-“There goes Mr. Adams and with him his congressional influence! BYE BYE! OH LOOK! Are my eyes deceiving me, or is that A DEMOCRATIC PLURALITY IN. MY. FUCKING. HOUSE!” You looked at Colfax almost with a tear in your eye. You opened it to say something, but no words were emitted. Just an even more deafening silence. 
-
-Colfax turned and left without another word. You put your head in your hands. Would your father be proud?`;
+        return `<h3>Sorry. You have lost the 1872 Presidential Election.</h3><p>“You have lost Mr. Seward,” Colfax said as he stood above your desk. His hands firmly planted on either side of it. He looked as if he was about to pounce. </p><p>“How, on god's green earth you managed that, is, beyond me.” Colfax laughed maniacally. He was visibly disheveled, he looked as if he had not slept in a decade. He was scared. You saw it. He knew that his career would soon be ended by that railroad business. As Colfax laughed, he then sat in an armchair across from your desk and looked at you.</p><p>He stopped laughing, he looked only with contempt.</p><p>“Your father would have never lost some Democratic swine. That blasted fucking General will ruin everything you know. EVERYTHING I HAVE WORKED TOWARDS! You are so incredibly incompetent that the whole damn party is slipping out from under you!” He stood like a rocket and mocked you.</p><p>“There goes Mr. Adams and with him his congressional influence! BYE BYE! OH LOOK! Are my eyes deceiving me, or is that A DEMOCRATIC PLURALITY IN. MY. FUCKING. HOUSE!” You looked at Colfax almost with a tear in your eye. You opened it to say something, but no words were emitted. Just an even more deafening silence. </p><p>Colfax turned and left without another word. You put your head in your hands. Would your father be proud?`;
     }
 }
 
@@ -6132,7 +6071,7 @@ campaignTrail_temp.jet_data = [{
             "operator": ">",
             "value": 0,
             "endingImage": "https://i.imgur.com/L6x1FcL.jpg",
-            "endingText": "You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note.\n\n“Dear Mr. Seward,\n\nCongratulations, the morning news has reported your victory and by a real washout margin. I must say, I am proud, I’m sure he would be as well. \n\nI think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.\n\nI have suggestions for your actions in the coming months-” \n\nYou skip past the long list of orders before seeing what sat at the bottom of the note.\n\n“Sincerely,\nThe Speaker”\n\nWould your father be proud? \n\nThat is a question for the history books I’m afraid.",
+            "endingText": "<h3>Congratulations! You have won the 1872 Presidential Election.</h3>You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note. <p>“Dear Mr. Seward,</p><p>Congratulations, the morning news has reported your victory and by a real washout margin. I must say, I am proud, I’m sure he would be as well. </p><p>I think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.</p><p>I have suggestions for your actions in the coming months-” </p><p>You skip past the long list of orders before seeing what sat at the bottom of the note.</p><p>“Sincerely,The Speaker”</p><p>Would your father be proud? </p><p>That is a question for the history books I’m afraid.</p>",
             "amount": "300"
         },
         "1716530559075": {
@@ -6141,7 +6080,7 @@ campaignTrail_temp.jet_data = [{
             "operator": ">",
             "value": 0,
             "endingImage": "https://i.imgur.com/L6x1FcL.jpg",
-            "endingText": "You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note.\n\n“Dear Mr. Seward,\n\nCongratulations, the morning news has reported your victory and by a real respectable margin. I must say, I am proud, I’m sure he would be as well. \n\nI think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.\n\nI have suggestions for your actions in the coming months-” \n\nYou skip past the long list of orders before seeing what sat at the bottom of the note.\n\n“Sincerely,\nThe Speaker”\n\nWould your father be proud? \n\nThat is a question for the history books I’m afraid.",
+            "endingText": "<h3>Congratulations! You have won the 1872 Presidential Election.</h3><p>You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note.</p><p>“Dear Mr. Seward,</p><p>Congratulations, the morning news has reported your victory and by a real respectable margin. I must say, I am proud, I’m sure he would be as well. </p><p>I think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.</p><p>I have suggestions for your actions in the coming months-” </p><p>You skip past the long list of orders before seeing what sat at the bottom of the note.</p><p>“Sincerely, The Speaker”</p><p>Would your father be proud? </p><p>That is a question for the history books I’m afraid.</p>",
             "amount": "250"
         },
         "1716530589637": {
@@ -6150,7 +6089,7 @@ campaignTrail_temp.jet_data = [{
             "operator": ">",
             "value": 0,
             "endingImage": "https://i.imgur.com/L6x1FcL.jpg",
-            "endingText": "You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note.\n\n“Dear Mr. Seward,\n\nCongratulations, the morning news has reported your victory and by a real close margin. I must say, I am proud, I’m sure he would be as well. \n\nI think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.\n\nI have suggestions for your actions in the coming months-” \n\nYou skip past the long list of orders before seeing what sat at the bottom of the note.\n\n“Sincerely,\nThe Speaker”\n\nWould your father be proud? \n\nThat is a question for the history books I’m afraid.",
+            "endingText": "<h3>Congratulations! You have won the 1872 Presidential Election.</h3><p>You are informed of your win, not by the papers, but by a letter. As your aide brings in your daily mail he tells you that the letter was heavy. You open it up to see a large coin plop out with a note. On the coin is engraved the face of your father. A commemorative piece, minted five years after the Calamity. Your fathers bronze face stares into yours and you peer at the note.</p><p>“Dear Mr. Seward,</p><p>Congratulations, the morning news has reported your victory and by a real close margin. I must say, I am proud, I’m sure he would be as well. </p><p>I think we have a bright future ahead in these coming four years. I must say that I am sorry about the railway affair. I assure you it will be sorted within the coming months.</p><p>I have suggestions for your actions in the coming months-” </p><p>You skip past the long list of orders before seeing what sat at the bottom of the note.</p><p>“Sincerely,The Speaker”</p><p>Would your father be proud? </p><p>That is a question for the history books I’m afraid. </p>",
             "amount": "166"
         },
         "1716530648640": {
@@ -6159,7 +6098,7 @@ campaignTrail_temp.jet_data = [{
             "operator": "<",
             "value": 0,
             "endingImage": "https://i.imgur.com/FtlmPUh.png",
-            "endingText": "“You have lost Mr. Seward,” Colfax said as he stood above your desk. His hands firmly planted on either side of it. He looked as if he was about to pounce. \n\n“How, on god's green earth you managed that, is, beyond me.” Colfax laughed maniacally. He was visibly disheveled, he looked as if he had not slept in a decade. He was scared. You saw it. He knew that his career would soon be ended by that railroad business. As Colfax laughed, he then sat in an armchair across from your desk and looked at you.\n\nHe stopped laughing, he looked only with contempt.\n\n“Your father would have never lost some Democratic swine. That blasted fucking General will ruin everything you know. EVERYTHING I HAVE WORKED TOWARDS! You are so incredibly incompetent that the whole damn party is slipping out from under you!” He stood like a rocket and mocked you.\n\n“There goes Mr. Adams and with him his congressional influence! BYE BYE! OH LOOK! Are my eyes deceiving me, or is that A DEMOCRATIC PLURALITY IN. MY. FUCKING. HOUSE!” You looked at Colfax almost with a tear in your eye. You opened it to say something, but no words were emitted. Just an even more deafening silence. \n\nColfax turned and left without another word. You put your head in your hands. Would your father be proud?",
+            "endingText": "<h3>Sorry. You have lost the 1872 Presidential Election.</h3><p>“You have lost Mr. Seward,” Colfax said as he stood above your desk. His hands firmly planted on either side of it. He looked as if he was about to pounce. </p><p>“How, on god's green earth you managed that, is, beyond me.” Colfax laughed maniacally. He was visibly disheveled, he looked as if he had not slept in a decade. He was scared. You saw it. He knew that his career would soon be ended by that railroad business. As Colfax laughed, he then sat in an armchair across from your desk and looked at you.</p><p>He stopped laughing, he looked only with contempt.</p><p>“Your father would have never lost some Democratic swine. That blasted fucking General will ruin everything you know. EVERYTHING I HAVE WORKED TOWARDS! You are so incredibly incompetent that the whole damn party is slipping out from under you!” He stood like a rocket and mocked you.</p><p>“There goes Mr. Adams and with him his congressional influence! BYE BYE! OH LOOK! Are my eyes deceiving me, or is that A DEMOCRATIC PLURALITY IN. MY. FUCKING. HOUSE!” You looked at Colfax almost with a tear in your eye. You opened it to say something, but no words were emitted. Just an even more deafening silence. </p><p>Colfax turned and left without another word. You put your head in your hands. Would your father be proud?",
             "amount": "166"
         }
     },
